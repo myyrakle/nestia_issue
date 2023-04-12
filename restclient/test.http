@@ -1,0 +1,16 @@
+## 
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+    "foo": [[4,2], [5,3], [55, 33], [534, 88]]
+}
+###
+
+## 
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+    "foo": [1]
+}
